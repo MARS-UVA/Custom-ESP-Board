@@ -5401,7 +5401,7 @@
 		)
 		(uuid "b0954d55-5f88-4c4b-823e-45b71523bea0")
 	)
-	(text "wolfwood\n"
+	(text "wolfwood s3\n"
 		(exclude_from_sim no)
 		(at 591.058 320.802 0)
 		(effects
@@ -10087,7 +10087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 528.32 299.72 0)
 			(effects
 				(font
@@ -12977,7 +12977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 565.15 308.61 0)
 			(effects
 				(font
