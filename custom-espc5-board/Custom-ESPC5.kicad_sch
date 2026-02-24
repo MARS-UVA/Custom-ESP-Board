@@ -5401,9 +5401,9 @@
 		)
 		(uuid "b0954d55-5f88-4c4b-823e-45b71523bea0")
 	)
-	(text "wolfwood s3\n"
+	(text "wolfwood"
 		(exclude_from_sim no)
-		(at 591.058 320.802 0)
+		(at 601.98 320.802 0)
 		(effects
 			(font
 				(size 5 5)
