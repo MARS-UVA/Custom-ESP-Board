@@ -4413,217 +4413,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:CK_KMS2xxG"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 4.318 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CK_KMS2xxG"
-				(at 0 4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SW*KMS2*G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CK_KMS2xxG_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CK_KMS2xxG_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Nidec_CAS-120A1"
 			(pin_names
 				(offset 1)
@@ -4799,6 +4588,156 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5281,6 +5220,18 @@
 		)
 		(uuid e26916ec-9564-4286-b800-0b6ee1857623)
 	)
+	(rectangle
+		(start 503.555 294.005)
+		(end 538.48 312.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5da212a-e8c8-4654-a81d-b816fe40b218)
+	)
 	(text "Quadrature Encoders"
 		(exclude_from_sim no)
 		(at 538.226 412.75 0)
@@ -5334,6 +5285,17 @@
 			(justify left)
 		)
 		(uuid "56779013-34c9-4b51-96fd-793c87dfb376")
+	)
+	(text "BOOT Switch"
+		(exclude_from_sim no)
+		(at 538.48 292.1 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right)
+		)
+		(uuid "675c1456-c0f3-4c61-8b45-94624d3d9df0")
 	)
 	(text "VO = 1.25 * (1 + R1/R2) + I_Adj * R2 = 5.5 V\n"
 		(exclude_from_sim no)
@@ -5439,12 +5401,14 @@
 		)
 		(uuid "b0954d55-5f88-4c4b-823e-45b71523bea0")
 	)
-	(text "Wolfwood\n"
+	(text "wolfwood\n"
 		(exclude_from_sim no)
 		(at 591.058 320.802 0)
 		(effects
 			(font
 				(size 5 5)
+				(thickness 1)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -5628,12 +5592,6 @@
 		(uuid "b067044b-2be1-42f6-bbcc-f71ae70616fe")
 	)
 	(junction
-		(at 560.07 316.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b34525d0-f87c-4ac7-a158-00c5188c6388")
-	)
-	(junction
 		(at 676.91 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5722,16 +5680,6 @@
 			(type default)
 		)
 		(uuid "019770ee-faa6-49fa-9106-d3913a975fe6")
-	)
-	(wire
-		(pts
-			(xy 560.07 316.23) (xy 565.15 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ba5ea6-8b01-416f-b4ae-f538698f8333")
 	)
 	(wire
 		(pts
@@ -5846,7 +5794,7 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 312.42) (xy 574.04 312.42)
+			(xy 570.23 313.69) (xy 574.04 313.69)
 		)
 		(stroke
 			(width 0)
@@ -6481,6 +6429,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 304.8) (xy 511.81 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2c8afc-0772-4cf0-a88c-df0c4c361129")
+	)
+	(wire
+		(pts
 			(xy 673.1 308.61) (xy 673.1 325.12)
 		)
 		(stroke
@@ -6773,7 +6731,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 312.42) (xy 560.07 316.23)
+			(xy 560.07 313.69) (xy 560.07 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6853,6 +6811,16 @@
 	)
 	(wire
 		(pts
+			(xy 574.04 313.69) (xy 574.04 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9eb28a7-101b-40a1-b237-5a7b3d7c8e23")
+	)
+	(wire
+		(pts
 			(xy 693.42 417.83) (xy 690.88 417.83)
 		)
 		(stroke
@@ -6911,6 +6879,16 @@
 		)
 		(uuid "1fcbcca7-3b26-4846-ab33-109ab11193e0")
 	)
+	(label "GPIO28"
+		(at 511.81 304.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "371e742e-8f0a-4b3e-9173-b206b3e9c2f7")
+	)
 	(label "UART RX"
 		(at 749.3 314.96 0)
 		(effects
@@ -6930,6 +6908,16 @@
 			(justify left bottom)
 		)
 		(uuid "4fd21343-8bbb-4d30-9a9c-7ff9ca07c5f6")
+	)
+	(label "GPIO28"
+		(at 632.46 358.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5320e4ec-e49e-48d0-b623-7ea6bb84a2df")
 	)
 	(label "UART TX"
 		(at 749.3 317.5 0)
@@ -7970,77 +7958,6 @@
 			(project "Custom-ESPC5"
 				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:CK_KMS2xxG")
-		(at 565.15 312.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24fbb19e-31f7-47b4-9b29-28dd30b06407")
-		(property "Reference" "SW3"
-			(at 565.15 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CK_KMS2xxG"
-			(at 565.15 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-			(at 565.15 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 565.15 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 565.15 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69f6c115-9d26-41ca-a0d8-04dc13e0959c")
-		)
-		(pin "SH"
-			(uuid "670c49b4-5535-49d0-b172-a1b3d2bd06b8")
-		)
-		(pin "1"
-			(uuid "fdee5f01-635d-46c1-841f-7fd43890af29")
-		)
-		(instances
-			(project "Custom-ESPC5"
-				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -10144,6 +10061,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 528.32 304.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "870542ff-abaf-418e-a937-72bcac752b38")
+		(property "Reference" "SW3"
+			(at 528.32 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 528.32 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+			(at 528.32 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 528.32 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 528.32 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c7dbe6-0f5c-4904-b1fb-ce19b92b44c8")
+		)
+		(pin "2"
+			(uuid "f3aae51b-90ad-44b0-bf66-2651302c4840")
+		)
+		(instances
+			(project "Custom-ESPC5"
+				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 515.62 472.44 0)
 		(mirror y)
@@ -10674,6 +10660,72 @@
 			(project "Custom-ESPC5"
 				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 533.4 304.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b9c1905-181c-4eab-897b-4cecd1f5a5ea")
+		(property "Reference" "#PWR038"
+			(at 533.4 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 533.4 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 533.4 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 533.4 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 533.4 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41f21fc6-7f49-42b1-b9ec-5762f1c2370d")
+		)
+		(instances
+			(project "Custom-ESPC5"
+				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12347,6 +12399,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 519.43 304.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4df5b8-c244-48be-9ce7-c3eb2fbff7e1")
+		(property "Reference" "R11"
+			(at 519.43 298.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 519.43 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 519.43 303.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 519.43 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 519.43 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c039d4e4-e8c0-407d-a9c3-43672655873d")
+		)
+		(pin "1"
+			(uuid "a7e1f565-fa9a-469d-b54b-da424f17bb7d")
+		)
+		(instances
+			(project "Custom-ESPC5"
+				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 736.6 365.76 0)
 		(mirror y)
@@ -12825,6 +12946,74 @@
 			(project "Custom-ESPC5"
 				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 565.15 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3027d4c-2a36-4a96-b7eb-4c0036c9cc91")
+		(property "Reference" "SW2"
+			(at 565.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 565.15 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
+			(at 565.15 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 565.15 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 565.15 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d06c163-e738-4079-84d5-e17d62e45cb0")
+		)
+		(pin "2"
+			(uuid "26eba10e-721b-41b0-969d-2ff8786d87f3")
+		)
+		(instances
+			(project ""
+				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
