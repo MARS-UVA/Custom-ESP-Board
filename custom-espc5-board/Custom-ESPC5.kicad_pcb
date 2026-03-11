@@ -2691,65 +2691,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "37894a5f-65ca-4da6-b165-89db5dbb656d")
-		(at 52.5 133.1)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "76caa3b4-8525-4fb8-a391-41d3f6865d4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "67a63999-95a9-47c8-9d4f-49680c0c09a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8d7f996-f409-4db8-8214-6a50590fb15d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72743fde-00eb-4825-8d8d-1508ba843785")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f5d99002-5d32-43d5-a3db-72c0fb4d2d9d")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3d87942c-cc49-4ce7-8266-27a55f68099b")
@@ -2757,7 +2698,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 1.1 180)
+			(at 0.485 1.1 180)
 			(layer "F.SilkS")
 			(uuid "a65e447f-eb23-440d-acd5-1bb63a725d7a")
 			(effects
@@ -3357,7 +3298,7 @@
 		(descr "HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "HVSON NoLead")
 		(property "Reference" "U9"
-			(at 0 -2.45 90)
+			(at 0 2.475 90)
 			(layer "F.SilkS")
 			(uuid "43de3ccb-22c4-4e99-b23d-50c6f9da7f1b")
 			(effects
@@ -6162,6 +6103,65 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "90bd35af-c8de-43af-9cee-69426ba5170d")
+		(at 107.98191 84.455)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "d8727800-2804-4a33-ac28-6a97a376135f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3146ad8b-4230-494c-83b6-bb3524bbea9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "933a618b-850e-41a1-9464-490169782327")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a953c302-e461-48fb-93cd-1a14bcdd6f54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4.5 4.5)
+			(drill 4.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9cd9d321-91ab-4369-a1f3-0826cc9f965e")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9288209c-0eeb-403f-9b85-f85e24bec710")
@@ -6304,65 +6304,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "99c905c7-bd81-4d08-bb67-005bafea4996")
-		(at 52.65 83.75)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "d93d32b6-4e84-468f-9a23-95197b719ea4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "d317394d-7f5a-4df4-afa5-81ba345033d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cea81c91-9533-494e-a6d9-984d58be9d51")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "494bd88b-74d9-414c-89b9-620a7bfcbf39")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 4.5 4.5)
-			(drill 4.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "bfa6dcf4-d3c7-44fb-b461-f718b06a5f1e")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9c1f96b7-dcc3-4968-b4ae-8d0ad98672ee")
@@ -6370,7 +6311,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 1.61 0 0)
+			(at -0.015 0.875 0)
 			(layer "F.SilkS")
 			(uuid "aa99a5a3-cb08-4308-abba-c4c939815218")
 			(effects
@@ -7209,7 +7150,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at -1.59 0.01 0)
+			(at 0.01 0.9 0)
 			(layer "F.SilkS")
 			(uuid "49cadc8a-68ee-4454-9b1f-e8ead9c76b1c")
 			(effects
@@ -8323,12 +8264,12 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
-		(uuid "bc8e6d71-efd0-4865-8809-c474011d2727")
-		(at 108.9 83.9)
+		(uuid "c38a60b6-c5c7-4f6d-9b77-c8354df377d6")
+		(at 53.34 132.715)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "19563adb-9306-4c48-9ac2-35d67da18f25")
+			(uuid "e888cd17-c413-4471-8b67-9a70c9e685e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8280,7 @@
 		(property "Value" ""
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "9b1ce8dc-b813-489e-abb1-004e9dc6f20f")
+			(uuid "b07be0e0-77c4-4b28-bf72-3ea949f00184")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8292,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cace3a57-101a-456d-a946-0ce7c0f93e5f")
+			(uuid "6be473f3-29b5-48fd-975b-4ebce6b0ae49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8304,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d67dd30e-c0ca-4c56-8e79-1acb7cc3095c")
+			(uuid "f1a680b9-7bf5-42db-ba94-5f98025c565a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +8317,7 @@
 			(size 4.5 4.5)
 			(drill 4.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "635c56fb-e1ab-4ee7-97bc-afa89aca7e26")
+			(uuid "920fcec8-b8d4-4c8a-8ea3-3b90c4365fa0")
 		)
 		(embedded_fonts no)
 	)
@@ -9105,8 +9046,67 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
+		(uuid "d082ee6b-0ea1-4078-96f5-4658c7bca329")
+		(at 53.34 84.455)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "f0810e56-567d-4a85-90ee-1cc96212c5f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ac348dae-2901-43f9-9be0-d9b7f778d2ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f1cce3c-ecda-4352-8f97-137c4c952338")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9acd8e8-17f4-4d37-aae9-3ab949386ae4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4.5 4.5)
+			(drill 4.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "becc0b84-70c6-4c3e-9c06-bdf771e2176a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
 		(uuid "d0c9e414-5223-4094-86a5-1e02e4bccc3b")
-		(at 108.75 133.25)
+		(at 108.585 133.35)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -10661,7 +10661,7 @@
 		(descr "QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U3"
-			(at -0.8875 -3.1 0)
+			(at -1.1125 -3.1 0)
 			(layer "F.SilkS")
 			(uuid "d6504129-4f5e-463b-adc4-bc2c1bf4625d")
 			(effects
@@ -11708,16 +11708,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 48.6 80.1)
-		(end 112.6 137.1)
+	(gr_line
+		(start 112.42691 84.455)
+		(end 112.395 133.35)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "20a30f06-3fcf-41ea-92a8-e745b3a427bf")
+		(uuid "1a5f40c3-bddb-410c-b13d-da662c2a6ff3")
+	)
+	(gr_arc
+		(start 112.395 133.35)
+		(mid 111.279077 136.044077)
+		(end 108.585 137.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3ee8fa0c-f381-4696-8a06-637ae180a702")
+	)
+	(gr_line
+		(start 107.9819 80.01)
+		(end 53.34 80.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41df64d0-ad9c-48bb-a8d1-8f96fab8750d")
+	)
+	(gr_line
+		(start 48.895 84.455)
+		(end 48.895 132.715)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4984f0c7-8bf7-4416-ac35-4d731b7ce0a8")
+	)
+	(gr_arc
+		(start 107.98191 80.01)
+		(mid 111.125 81.31191)
+		(end 112.42691 84.455)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4fcfcc4e-330d-41d9-9d8e-c6a92e027e6b")
+	)
+	(gr_line
+		(start 53.34 137.16)
+		(end 108.585 137.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5f0fdcbd-79b9-4360-9588-0083dbb979a6")
+	)
+	(gr_arc
+		(start 48.895 84.455)
+		(mid 50.19691 81.31191)
+		(end 53.34 80.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb0961da-2dd7-45d7-b443-da65fa413b0c")
+	)
+	(gr_arc
+		(start 53.34 137.16)
+		(mid 50.19691 135.85809)
+		(end 48.895 132.715)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d1093058-c3a8-4e16-b6a3-231a7c695b80")
 	)
 	(gr_text "BOOT"
 		(at 85.8 85.05 0)
