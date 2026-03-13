@@ -5586,7 +5586,7 @@
 		)
 		(uuid "675c1456-c0f3-4c61-8b45-94624d3d9df0")
 	)
-	(text "VO = 1.25 * (1 + R1/R2) + I_Adj * R2 = 5.5 V\n"
+	(text "VO = 1.25 * (1 + R1/R2) + I_Adj * R1 = 6.03 V\n"
 		(exclude_from_sim no)
 		(at 496.824 365.252 0)
 		(effects
@@ -11526,7 +11526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723676069908480"
 			(at 683.895 350.52 0)
 			(effects
 				(font
@@ -11700,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
 			(at 528.32 299.72 0)
 			(effects
 				(font
@@ -11710,6 +11710,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 528.32 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 528.32 304.8 0)
 			(effects
 				(font
@@ -15220,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
 			(at 565.15 308.61 0)
 			(effects
 				(font
