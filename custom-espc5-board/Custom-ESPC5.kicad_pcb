@@ -3263,7 +3263,6 @@
 			)
 		)
 	)
-<<<<<<< HEAD
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "365bd441-4303-4419-91c0-9c6c71258395")
@@ -3464,8 +3463,6 @@
 		)
 		(embedded_fonts no)
 	)
-=======
->>>>>>> f633b317ed74a8fec217d6e81a560c2b6c0da8ec
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3d87942c-cc49-4ce7-8266-27a55f68099b")
