@@ -9970,7 +9970,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "910"
+		(property "Value" "750"
 			(at 501.65 332.7399 0)
 			(effects
 				(font
@@ -10508,7 +10508,7 @@
 				)
 			)
 		)
-		(property "Value" "LM3940"
+		(property "Value" "LM3940IT-3.3"
 			(at 609.6 295.91 0)
 			(effects
 				(font
@@ -10516,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 609.6 297.18 0)
 			(effects
 				(font
@@ -14834,7 +14834,7 @@
 				)
 			)
 		)
-		(property "Value" "LM317DCYR"
+		(property "Value" "LM317KCS"
 			(at 499.11 355.6 0)
 			(effects
 				(font
@@ -14842,7 +14842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 499.11 355.6 0)
 			(effects
 				(font
