@@ -5798,7 +5798,7 @@
 		)
 		(uuid "675c1456-c0f3-4c61-8b45-94624d3d9df0")
 	)
-	(text "VO = 1.25 * (1 + R1/R2) + I_Adj * R1 = 6.03 V\n"
+	(text "VO = 1.25 * (1 + R1/R2) + I_Adj * R1 = 5.16 V\n"
 		(exclude_from_sim no)
 		(at 496.824 365.252 0)
 		(effects
