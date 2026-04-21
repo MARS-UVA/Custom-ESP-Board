@@ -6424,12 +6424,6 @@
 		(uuid "5806e573-aeb0-4b16-ac11-932dc1a8cd90")
 	)
 	(junction
-		(at 689.61 433.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "603cfb4d-5e1b-42f8-8d31-3ed896f2c2b6")
-	)
-	(junction
 		(at 678.18 420.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6775,16 +6769,6 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 304.8) (xy 574.04 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063898db-e43e-48d2-8fd0-40a377deb2ce")
-	)
-	(wire
-		(pts
 			(xy 499.11 325.12) (xy 499.11 327.66)
 		)
 		(stroke
@@ -6994,6 +6978,16 @@
 			(type default)
 		)
 		(uuid "333cf996-e246-41fa-b2c9-f51bf5323555")
+	)
+	(wire
+		(pts
+			(xy 574.04 303.53) (xy 574.04 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336baaa6-98e5-4d95-ae0c-f3ef747644e6")
 	)
 	(wire
 		(pts
@@ -7801,7 +7795,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 304.8) (xy 511.81 304.8)
+			(xy 511.81 304.8) (xy 523.24 304.8)
 		)
 		(stroke
 			(width 0)
@@ -7859,16 +7853,6 @@
 			(type default)
 		)
 		(uuid "b98b5f18-818a-4021-8d53-760b635c6706")
-	)
-	(wire
-		(pts
-			(xy 689.61 433.07) (xy 688.34 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8592dc-ccd2-41bc-a43f-d2e3de673094")
 	)
 	(wire
 		(pts
@@ -8123,7 +8107,7 @@
 	)
 	(wire
 		(pts
-			(xy 690.88 433.07) (xy 689.61 433.07)
+			(xy 688.34 433.07) (xy 690.88 433.07)
 		)
 		(stroke
 			(width 0)
@@ -8320,16 +8304,6 @@
 			(type default)
 		)
 		(uuid "f9113cd0-02ac-4946-a7b3-bbb9e5a915db")
-	)
-	(wire
-		(pts
-			(xy 574.04 313.69) (xy 574.04 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9eb28a7-101b-40a1-b237-5a7b3d7c8e23")
 	)
 	(wire
 		(pts
@@ -14673,72 +14647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 689.61 433.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be41b90a-9ea4-4e28-9785-bfd53cd23080")
-		(property "Reference" "#PWR026"
-			(at 689.61 439.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 687.578 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 689.61 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 689.61 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 689.61 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a036569d-50eb-42e5-83d7-536ffba7bce7")
-		)
-		(instances
-			(project "Custom-ESPC5"
-				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Barrel_Jack")
 		(at 468.63 346.71 0)
 		(mirror x)
@@ -15698,76 +15606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 574.04 308.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbbf4bbe-dbf4-46be-809d-4dca693337ac")
-		(property "Reference" "R16"
-			(at 576.58 307.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 576.58 309.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 572.262 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 574.04 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 574.04 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3cbfca9-b605-4031-93f8-19e344d12533")
-		)
-		(pin "1"
-			(uuid "420754e0-a353-425d-8a0c-6bd1e571d8e6")
-		)
-		(instances
-			(project ""
-				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 717.55 321.31 0)
 		(unit 1)
@@ -15964,75 +15802,6 @@
 			(project "Custom-ESPC5"
 				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 519.43 304.8 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df4df5b8-c244-48be-9ce7-c3eb2fbff7e1")
-		(property "Reference" "R11"
-			(at 519.43 298.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 519.43 300.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 519.43 303.022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 519.43 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 519.43 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c039d4e4-e8c0-407d-a9c3-43672655873d")
-		)
-		(pin "1"
-			(uuid "a7e1f565-fa9a-469d-b54b-da424f17bb7d")
-		)
-		(instances
-			(project "Custom-ESPC5"
-				(path "/7f255074-3667-433c-aa2e-2c052ef2e2c8"
-					(reference "R11")
 					(unit 1)
 				)
 			)
