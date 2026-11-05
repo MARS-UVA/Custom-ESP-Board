@@ -6938,10 +6938,6 @@
 		(uuid "008e9149-3b94-4c14-806b-5fa62d54f65c")
 	)
 	(no_connect
-		(at 284.48 176.53)
-		(uuid "031a6406-c97e-4f5d-bb98-22d79a708664")
-	)
-	(no_connect
 		(at 314.96 186.69)
 		(uuid "032a9ade-86ba-4047-8fee-85d300dba05e")
 	)
@@ -6974,10 +6970,6 @@
 		(uuid "3cb2b439-29c6-4214-a811-4b0ebabcc1cf")
 	)
 	(no_connect
-		(at 284.48 184.15)
-		(uuid "4086229e-e38f-4c48-82ef-9d732e17220b")
-	)
-	(no_connect
 		(at 314.96 181.61)
 		(uuid "52e07554-c2c8-4cb8-b6d8-81f5d103cc96")
 	)
@@ -7006,10 +6998,6 @@
 		(uuid "7560f460-cbc8-44c0-9ce2-7ea982e15ba0")
 	)
 	(no_connect
-		(at 284.48 179.07)
-		(uuid "7a9c5f04-3225-483a-af50-72a1e88139c9")
-	)
-	(no_connect
 		(at 445.77 179.07)
 		(uuid "7f8aef4a-5bea-4c04-bd60-b88589e13ea7")
 	)
@@ -7020,10 +7008,6 @@
 	(no_connect
 		(at 445.77 158.75)
 		(uuid "8da2d189-92fd-4790-b0dd-256198286a92")
-	)
-	(no_connect
-		(at 284.48 173.99)
-		(uuid "91e5ccbc-15df-4d8f-acb6-6800e1802fe5")
 	)
 	(no_connect
 		(at 314.96 199.39)
@@ -7044,10 +7028,6 @@
 	(no_connect
 		(at 120.65 204.47)
 		(uuid "a83dd3aa-4358-437e-9b29-8be197e8f3c0")
-	)
-	(no_connect
-		(at 284.48 181.61)
-		(uuid "abeb14e5-b502-4da2-97f1-da74a3db3296")
 	)
 	(no_connect
 		(at 445.77 151.13)
@@ -8916,6 +8896,16 @@
 		)
 		(uuid "25d9750d-f5b2-4db3-b2b4-71378b29ea2b")
 	)
+	(label "GPIO5"
+		(at 284.48 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3130ffbd-431c-4063-874b-a5b9a7fcd891")
+	)
 	(label "UART1 TX"
 		(at 314.96 163.83 0)
 		(effects
@@ -8955,6 +8945,16 @@
 			(justify right bottom)
 		)
 		(uuid "446dae6b-0b9a-48b1-8a3c-bc5079b1f5b4")
+	)
+	(label "GPIO6"
+		(at 284.48 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a753b1e-cafa-4df9-a9d0-bcf264a65f41")
 	)
 	(label "UART0 TX"
 		(at 445.135 143.51 0)
@@ -9005,6 +9005,16 @@
 			(justify right bottom)
 		)
 		(uuid "66dc9f29-93d7-4586-b0c6-d54e454ef728")
+	)
+	(label "GPIO7"
+		(at 284.48 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b004b70-2a68-4f11-9743-c9ef06247432")
 	)
 	(label "SDA"
 		(at 284.48 189.23 180)
@@ -9216,6 +9226,16 @@
 		)
 		(uuid "c903a88e-d2d2-4eb3-9c47-6bc00cd06d4b")
 	)
+	(label "GPIO8"
+		(at 284.48 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d08040d0-2a64-4431-afe0-b784e34113ad")
+	)
 	(label "A2"
 		(at 284.48 191.77 180)
 		(effects
@@ -9265,6 +9285,16 @@
 			(justify right bottom)
 		)
 		(uuid "e1d6f07f-7405-41c4-bd1d-bcc27846e48a")
+	)
+	(label "GPIO4"
+		(at 284.48 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1f87661-3ce7-4217-a5a3-137b26d08488")
 	)
 	(label "UART1 RX"
 		(at 314.96 166.37 0)
