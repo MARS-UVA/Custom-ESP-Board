@@ -1934,6 +1934,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Counter_Clockwise"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -6444,6 +6776,18 @@
 		(uuid "aacd21f6-b241-4389-8def-4c5bf87abae7")
 	)
 	(rectangle
+		(start 160.02 247.65)
+		(end 204.47 273.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "af28c879-cd1d-4db5-b657-8dca91a3771e")
+	)
+	(rectangle
 		(start 349.25 226.695)
 		(end 434.34 268.605)
 		(stroke
@@ -6656,6 +7000,17 @@
 			)
 		)
 		(uuid "b04d2cc0-d6d7-480d-9f91-73aa41fd9b85")
+	)
+	(text "Header Pins"
+		(exclude_from_sim no)
+		(at 192.532 244.602 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right)
+		)
+		(uuid "b142f469-5a81-472f-8df2-52180e884345")
 	)
 	(text "PDH Power Select\n"
 		(exclude_from_sim no)
@@ -7067,6 +7422,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 261.62) (xy 193.04 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005bab04-8ead-4aa8-8b93-4a57d155cf91")
+	)
+	(wire
+		(pts
+			(xy 189.23 256.54) (xy 193.04 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038999f4-b2c6-4360-a759-9ce8e6ddde06")
+	)
+	(wire
+		(pts
 			(xy 375.92 250.19) (xy 375.92 254)
 		)
 		(stroke
@@ -7124,6 +7499,16 @@
 			(type default)
 		)
 		(uuid "08d12eea-44aa-4f4c-8574-f12c0a2058ed")
+	)
+	(wire
+		(pts
+			(xy 189.23 264.16) (xy 193.04 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9ea7d4-5a5b-4ccb-8757-1ae6c9b0c9d5")
 	)
 	(wire
 		(pts
@@ -7557,6 +7942,26 @@
 			(type default)
 		)
 		(uuid "4a15f3c4-4050-42ec-8a30-f9efb7fa3e7d")
+	)
+	(wire
+		(pts
+			(xy 170.18 261.62) (xy 176.53 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3eeb40-601f-4527-9293-09c959935497")
+	)
+	(wire
+		(pts
+			(xy 173.99 264.16) (xy 176.53 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c46814b-0942-484f-abca-d3c7c3ee0f9a")
 	)
 	(wire
 		(pts
@@ -8020,6 +8425,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 256.54) (xy 176.53 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9818c872-78de-4c3c-9f0a-1b2e7a7498f3")
+	)
+	(wire
+		(pts
 			(xy 385.445 134.62) (xy 387.35 134.62)
 		)
 		(stroke
@@ -8037,6 +8452,16 @@
 			(type default)
 		)
 		(uuid "9dbfcf4f-74d7-44bb-88f1-b305f915d30f")
+	)
+	(wire
+		(pts
+			(xy 173.99 267.97) (xy 173.99 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f381881-8b33-4618-a962-0f6bc2ff4176")
 	)
 	(wire
 		(pts
@@ -8167,6 +8592,16 @@
 			(type default)
 		)
 		(uuid "b8914a6f-86be-4df4-ac1e-840bfc012a0e")
+	)
+	(wire
+		(pts
+			(xy 189.23 259.08) (xy 193.04 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5b3bed-ee46-42f4-95a6-0dbc9045845b")
 	)
 	(wire
 		(pts
@@ -8520,6 +8955,16 @@
 			(type default)
 		)
 		(uuid "e9ccd6dd-0269-4f8d-a9e1-79e564df9113")
+	)
+	(wire
+		(pts
+			(xy 170.18 259.08) (xy 176.53 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6eb6c0-a63c-4e4e-bfde-4381d273058d")
 	)
 	(wire
 		(pts
@@ -9026,6 +9471,16 @@
 		)
 		(uuid "6c59bc99-eb35-4f48-9fb7-99f4b27835df")
 	)
+	(label "GPIO7"
+		(at 193.04 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "721dc7b1-0142-489b-b44d-3548c455f396")
+	)
 	(label "GPIO0"
 		(at 397.51 313.69 180)
 		(effects
@@ -9035,6 +9490,16 @@
 			(justify right bottom)
 		)
 		(uuid "7231ea47-3a5e-4e15-a049-bc832c84246b")
+	)
+	(label "GPIO6"
+		(at 193.04 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73c598cf-2d6a-476f-8ade-6fcb9cadb1e0")
 	)
 	(label "UART RTS"
 		(at 397.51 308.61 0)
@@ -9236,6 +9701,16 @@
 		)
 		(uuid "d08040d0-2a64-4431-afe0-b784e34113ad")
 	)
+	(label "GPIO4"
+		(at 173.99 267.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d10feccc-fada-49d6-a3c6-3ecf33255399")
+	)
 	(label "A2"
 		(at 284.48 191.77 180)
 		(effects
@@ -9306,6 +9781,16 @@
 		)
 		(uuid "e48ea57b-cdc8-4601-aa27-6fd4fd5327f1")
 	)
+	(label "GPIO8"
+		(at 193.04 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e844430d-7e28-44bb-ae43-986eb43167ca")
+	)
 	(label "UART RTS"
 		(at 445.135 146.05 0)
 		(effects
@@ -9335,6 +9820,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4d9267b-e653-40e8-b88c-59bd29d03f79")
+	)
+	(label "GPIO5"
+		(at 193.04 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8bbee0e-0695-4d1c-a65b-d8166db5b2cf")
 	)
 	(label "A1"
 		(at 330.2 177.8 0)
@@ -12465,6 +12960,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(at 181.61 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5c399b-9f83-454b-b56a-5da183110424")
+		(property "Reference" "J9"
+			(at 182.88 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Counter_Clockwise"
+			(at 182.88 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "0c16a9d8-b87b-4d07-bd1d-644263bbcbfd")
+		)
+		(pin "8"
+			(uuid "1ecc9bfc-d965-4de9-ae7b-aab1c2a27e3b")
+		)
+		(pin "4"
+			(uuid "8bb5d510-91f3-42f3-8388-afcbd9a47cf8")
+		)
+		(pin "3"
+			(uuid "08d606ef-bee8-4851-b73d-2eec4a419760")
+		)
+		(pin "1"
+			(uuid "79857a9c-bf9d-42c3-87ac-032bb4965b36")
+		)
+		(pin "2"
+			(uuid "a054aa0d-61c2-481c-aa89-856c65515722")
+		)
+		(pin "5"
+			(uuid "6d56c818-1032-4da4-8b70-ede4b4b54f7f")
+		)
+		(pin "6"
+			(uuid "fea76118-f5bc-4ec7-b182-b4d655c32e80")
+		)
+		(instances
+			(project "Custom-ESP32-S3-Board-V2"
+				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 220.98 223.52 0)
 		(mirror y)
@@ -13117,6 +13710,84 @@
 			(project "Custom-ESP32-S3-Board-V2"
 				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 259.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b815103-7fe0-4318-a3b9-58bde1b1fecb")
+		(property "Reference" "#PWR048"
+			(at 173.99 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 166.624 259.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8baac5d2-cf6a-4fc2-bf0d-a1c0e02e2063")
+		)
+		(instances
+			(project "Custom-ESP32-S3-Board-V2"
+				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15958,6 +16629,85 @@
 			(project "Custom-ESP32-S3-Board-V2"
 				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 261.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac5aca55-093e-42a1-bf19-b72efc28f2e9")
+		(property "Reference" "#PWR014"
+			(at 163.83 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 261.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4131ab0-d601-4694-827c-8bbf29bf68a2")
+		)
+		(instances
+			(project "Custom-ESP32-S3-Board-V2"
+				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18923,6 +19673,83 @@
 			(project "Custom-ESP32-S3-Board-V2"
 				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 170.18 256.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6ce1251-2bcf-48e5-a8ef-00a2f8c7aa28")
+		(property "Reference" "#PWR026"
+			(at 173.99 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 164.592 256.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 170.18 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3410c562-ee2c-4bec-8ce7-827177803037")
+		)
+		(instances
+			(project "Custom-ESP32-S3-Board-V2"
+				(path "/5a9746e6-cf80-4c07-bd51-84992fc8b001"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
