@@ -662,13 +662,18 @@
       {
         "filename": "Custom-ESP32-S3-Board-V2.kicad_sch",
         "name": "Custom-ESP32-S3-Board-V2",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "5a9746e6-cf80-4c07-bd51-84992fc8b001"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-13,#PWR15-25,#PWR27-47,#PWR54-61,C1-20,D2,H1-3,J1-8,J10,J12-13,Q1,R1-10,R12-15,R17-18,SW1-3,U1-6,U9",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "5a9746e6-cf80-4c07-bd51-84992fc8b001",
+      "Custom-ESP32-S3-Board-V2"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
