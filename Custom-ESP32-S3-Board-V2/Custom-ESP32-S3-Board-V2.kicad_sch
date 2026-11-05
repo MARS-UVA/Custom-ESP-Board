@@ -6023,8 +6023,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U7"
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6034,7 +6034,7 @@
 				)
 			)
 			(property "Value" "TPS6282533DMQR"
-				(at 0 0 0)
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6078,16 +6078,6 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "TPS6282533DMQR"
 				(at 0 0 0)
 				(show_name no)
@@ -6099,7 +6089,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DMQ0006A"
+			(property "ki_fp_filters" "TPS6282533DMQR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
