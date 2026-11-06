@@ -14165,7 +14165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 181.61 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -20331,7 +20331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 347.726 113.284 90)
 			(hide yes)
 			(show_name no)
